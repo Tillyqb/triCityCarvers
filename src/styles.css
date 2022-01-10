@@ -1,5 +1,10 @@
-main{
-    margin-right: 200;
-    margin-left: 200;
+body {
+    margin-right: 100px;
+    padding-left: 100px;
+    /* background-color: #eeeeee; */
     --primary_green: rgb(0, 153, 0);
+}
+
+h1{
+    color: var(--primary_green);
 }

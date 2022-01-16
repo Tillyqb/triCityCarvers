@@ -8,3 +8,15 @@ body {
 h1{
     color: var(--primary_green);
 }
+
+line{
+    border-color: var(--primary_green);
+    height: 1px;
+    width: 100%;
+    border-width: 1px;
+}
+
+.main-heading{
+    color: var(--primary_green);
+    font-size: 58pt;
+}

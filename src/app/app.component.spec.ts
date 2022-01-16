@@ -30,6 +30,6 @@ describe('AppComponent', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('triCityCarvers app is running!');
+    expect(compiled.querySelector('.main-heading')?.textContent).toContain('Welcome to the Tri-City Carvers Club');
   });
 });

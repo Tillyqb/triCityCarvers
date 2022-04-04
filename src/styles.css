@@ -1,21 +1,25 @@
 body {
-    font-size: large;
-    margin-right: 100px;
-    padding-left: 100px;
-    --primary_green: rgb(0, 153, 0);
-    
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  margin-right: 10%;
+  padding-left: 10%;
+  --primary_green: rgb(0, 153, 0);
 }
 
-hr{
-    color: rgb(0, 153, 0);
+b {
+  color: var(--primary_green);
 }
 
-h1{
-    color: var(--primary_green);
+hr {
+  color: rgb(0, 153, 0);
 }
 
-.main-heading{
-    color: var(--primary_green);
-    font-size: 58pt;
-    text-align: center;
+h1 {
+  color: var(--primary_green);
+}
+
+.main-heading {
+  color: var(--primary_green);
+  font-size: 58pt;
+  text-align: center;
 }
